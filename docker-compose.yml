@@ -2,7 +2,7 @@ version: "2"
 
 services:
   item-app:
-    image: item-app  # Menggunakan image item-app dari Docker Hub
+    image: alfandocker/item-app:v1  # Menggunakan image item-app dari Docker Hub
     ports:
       - "80:8080"  # Melakukan port mapping agar dapat diakses dari port 80 di host
     depends_on:
